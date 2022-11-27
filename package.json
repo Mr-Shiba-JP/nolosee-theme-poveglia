@@ -17,7 +17,9 @@
         "zip": "gulp zip",
         "test": "gscan ."
     },
-    "card_assets": false,
+    "card_assets": {
+        "exclude": ["bookmark", "gallery"]
+    },    
     "gpm": {
         "type": "theme",
         "categories": [
